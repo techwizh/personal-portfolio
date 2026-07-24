@@ -35,8 +35,19 @@ nav {
 }
 
 #home {
-    padding: 80px 40px;
+    padding: 80px 40px 60px;
     text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.hero-eyebrow {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #0077ff;
+    margin-bottom: 12px;
 }
 
 #home h1 {
@@ -44,10 +55,24 @@ nav {
     margin-bottom: 15px;
 }
 
-#home p {
+.hero-subtitle {
     font-size: 18px;
     color: #444;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+.hero-intro {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 28px;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
 }
 
 .hero-btn {
@@ -56,7 +81,7 @@ nav {
     padding: 12px 28px;
     background-color: #0077ff;
     color: white;
-    border: none;
+    border: 2px solid #0077ff;
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
@@ -64,6 +89,95 @@ nav {
 
 .hero-btn:hover {
     background-color: #0055cc;
+    border-color: #0055cc;
+}
+
+.hero-btn-outline {
+    background-color: transparent;
+    color: #0077ff;
+}
+
+.hero-btn-outline:hover {
+    background-color: #0077ff;
+    color: white;
+}
+
+.home-section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.home-section-alt {
+    background-color: #f8fafc;
+}
+
+.home-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.highlights-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.highlight-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 28px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.highlight-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #111;
+}
+
+.highlight-card p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.home-section-link {
+    margin-top: 35px;
+}
+
+.home-section-link a {
+    text-decoration: none;
+    color: #0077ff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.home-section-link a:hover {
+    color: #0055cc;
+}
+
+.site-footer {
+    padding: 40px;
+    text-align: center;
+    background-color: #0077ff;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+}
+
+.site-footer a {
+    color: #ffe600;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
 }
 #about {
     padding: 80px 40px;
