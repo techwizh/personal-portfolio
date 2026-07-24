@@ -34,6 +34,19 @@ nav {
     color: #ffe600;
 }
 
+.profile-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #0077ff;
+    box-shadow: 0 4px 16px rgba(0, 119, 255, 0.2);
+}
+
+#home .profile-photo {
+    margin-bottom: 28px;
+}
+
 #home {
     padding: 80px 40px 60px;
     text-align: center;
@@ -183,6 +196,22 @@ nav {
     padding: 80px 40px;
     max-width: 800px;
     margin: 0 auto;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+#about .profile-photo {
+    flex-shrink: 0;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 260px;
 }
 
 #about h2 {
